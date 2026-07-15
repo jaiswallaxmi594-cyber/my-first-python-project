@@ -1,7 +1,7 @@
 import random
 
 print("=" * 40)
-print("🎯 WELCOME TO NUMBER GUESSING GAME")
+print("WELCOME TO NUMBER GUESSING GAME")
 print("=" * 40)
 
 while True:
@@ -59,12 +59,12 @@ while True:
         print("Remaining Attempts:", max_attempts - attempts)
 
     else:
-        print("\n😢 Game Over!")
+        print("\n Game Over!")
         print("The correct number was:", secret_number)
 
     play = input("\nDo you want to play again? (yes/no): ").lower()
 
     if play != "yes":
         print("\nThank you for playing!")
-        print("Have a great day 😊")
+        print("Have a great day ")
         break
